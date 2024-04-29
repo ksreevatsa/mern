@@ -1,8 +1,8 @@
 const environment = process.env.NODE_ENV;
 
 const apis = {
-  BASE_LOCAL_URL:environment==='development'?'http://localhost:3001':'',
-  BASE : environment==='development'?'http://localhost:5001':'',
+  BASE_LOCAL_URL:environment==='development'?'http://mern-backend-lilac.vercel.app':'',
+  BASE : environment==='development'?'http://mern-backend-lilac.vercel.app':'',
   LOGIN : "/api/v1/login",
   GET_USER_DETAILS: "/api/v1/user/details",
   STUDENT_REGISTER: "/api/v1/public/register",
